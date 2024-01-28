@@ -79,7 +79,7 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url(./public/img/profile-pic.jpeg);
+    background-image: url(./img/profile-pic.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -60vh;
@@ -140,7 +140,7 @@ span{
 
 .work{
     width: 60%;
-    margin-top: 20vh;
+    margin-top: 30vh;
     margin-left: 20vw;
     
 }
@@ -150,6 +150,11 @@ span{
 }
 
 .work_3{
+    margin-top: 44vh;
+    margin-left: 13vw;
+}
+
+.work_4{
     margin-top: 44vh;
 }
 
