@@ -1,0 +1,161 @@
+@import url(./normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+:root {
+  font-size: 8px;
+}
+
+body {
+  height: auto;
+  color: #fffdfd;
+  background-color: #09010f;
+  font-family: "Merriweather";
+  overflow-x: hidden;
+}
+
+.navbar {
+  width: 100vw;
+}
+
+.logo {
+  width: 30%;
+}
+
+#logo {
+  display: inline;
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.options ul {
+  display: flex;
+  width: 90%;
+  margin-left: -18%;
+}
+
+.options ul li:nth-child(4) {
+  width: 80%;
+  margin-left: 10%;
+  color: red;
+}
+
+.options ul li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-left: 10%;
+}
+
+.presentation_text {
+  font-size: 2rem;
+  margin-top: 60%;
+  margin-left: 20%;
+}
+
+.presentation_text--2 {
+  font-size: 2rem;
+  margin-top: 200vh;
+  margin-left: 20%;
+}
+
+.presentation_text--3 {
+  margin-top: 80vh;
+  margin-left: 25vw;
+  margin-right: 20vw;
+}
+
+.profile {
+  width: 100%;
+  margin-top: -55vh;
+  margin-left: 60vw;
+}
+
+.profile_photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile_photo img:hover {
+  animation: imganim forwards;
+}
+
+#arrow {
+  width: 200px;
+  transform: scaleX(-1);
+  position: absolute;
+  margin-left: 40vw;
+  margin-top: -10vh;
+}
+
+#circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 305vh;
+  right: 20vw;
+}
+
+span {
+  color: red;
+}
+
+.description {
+  margin-top: 60vh;
+}
+
+#title-work {
+  margin-left: 45vw;
+}
+
+.work {
+  margin-top: 60vh;
+  margin-left: 20vw;
+}
+
+.work_2 {
+  margin-top: 44vh;
+}
+
+.work_3 {
+  margin-top: 44vh;
+}
+
+#abilities {
+  margin-top: 100vh;
+  margin-left: 45vw;
+}
+
+.cards {
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 20vw;
+}
+.cards .card {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 15vw;
+  border-radius: 5px;
+  height: 50vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 20vw;
+  margin-left: 8vw;
+}
+.cards .card h2 {
+  position: relative;
+  top: 30%;
+}
+
+@keyframes imganim {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.15);
+  }
+}/*# sourceMappingURL=App.css.map */
